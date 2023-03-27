@@ -12,7 +12,7 @@ Each of the 2 USB-A ports ( top and bottom) has it's own CAN transciever IC, a j
 
 ![U2C-3  USB-A Pins](images/fly_utoc-1_3_usb_a.png)
 
-Remember that no matter how many devices are on the CAN bus you one want to have two 120ohm termination resistors enabled on the bus. You want to measure 60 ohms across CAN H and CAN L with all devices connected. 
+Remember that no matter how many devices are on the CAN bus you only want to have two 120ohm termination resistors enabled on the bus. You want to measure 60 ohms across CAN H and CAN L with all devices connected. 
 
 ## Klipper Configuration 
  Below is a set of configuration screen shots or links to guides for MCUs that don't have an onboard CAN transciever but are capaible of communicating on CAN through the control board USB port connected to a UTOC/U2C USB A port. 
