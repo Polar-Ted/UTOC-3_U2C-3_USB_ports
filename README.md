@@ -15,8 +15,8 @@ Each of the 2 USB-A ports ( top and bottom) has it's own CAN transciever IC, a j
 Remember that no matter how many devices are on the CAN bus you one want to have two 120ohm termination resistors enabled on the bus. You want to measure 60 ohms across CAN H and CAN L with all devices connected. 
 
 ## Klipper Configuration 
- Below is a set of configuration screen shots for some MCUs that can run on CAN through the control board USB port connected to a UTOC/U2C USB A port. 
- This is not a complete list. That are many more than what I have listed here. Most devices with a STM32 CPU should be capaible of comunicating over CAN. 
+ Below is a set of configuration screen shots or links to guides for MCUs that don't have an onboard CAN transciever but are capaible of communicating on CAN through the control board USB port connected to a UTOC/U2C USB A port. 
+ This is not a complete list. That are many more than what I have listed here. Most devices with an STM32 or RP2040 CPU should be capaible of communicating over CAN. 
  
  - [V0 Display](https://github.com/Polar-Ted/Voron-V0-Display-on-CANBUS/raw/main/Images/V0_display_canboot_can.png)
  - [Fysetc STM32 Mini12864]() Coming Soon
