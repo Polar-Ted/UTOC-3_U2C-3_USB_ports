@@ -13,6 +13,16 @@ Each of the 2 USB-A ports ( top and bottom) has it's own CAN transciever IC, a j
 ![U2C-3  USB-A Pins](images/fly_utoc-1_3_usb_a.png)
 
 Remember that no matter how many devices are on the CAN bus you one want to have two 120ohm termination resistors enabled on the bus. You want to measure 60 ohms across CAN H and CAN L with all devices connected. 
+
+## Klipper Configuration 
+ Below is a set of configuration screen shots for some MCUs that can run on CAN through the control board USB port connected to a UTOC/U2C USB A port. 
+ THis is not a complete list. That are many more than what I have listed here.
+ 
+ - [V0 Display](https://github.com/Polar-Ted/Voron-V0-Display-on-CANBUS/raw/main/Images/V0_display_canboot_can.png)
+ - [Fysetc STM32 Mini12864]()
+
+## Pin Diagrams
+
  - BTT U2C-3      
    ![U2C-3](https://github.com/bigtreetech/U2C/blob/master/Image/pinout.png)      
 
