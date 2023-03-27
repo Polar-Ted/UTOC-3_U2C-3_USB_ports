@@ -16,10 +16,13 @@ Remember that no matter how many devices are on the CAN bus you one want to have
 
 ## Klipper Configuration 
  Below is a set of configuration screen shots for some MCUs that can run on CAN through the control board USB port connected to a UTOC/U2C USB A port. 
- THis is not a complete list. That are many more than what I have listed here.
+ This is not a complete list. That are many more than what I have listed here. Most devices with a STM32 CPU should be capaible of comunicating over CAN. 
  
  - [V0 Display](https://github.com/Polar-Ted/Voron-V0-Display-on-CANBUS/raw/main/Images/V0_display_canboot_can.png)
- - [Fysetc STM32 Mini12864]()
+ - [Fysetc STM32 Mini12864]() Coming Soon
+ - [BTT SKR Pico or other RP2040 by gpio0/gpio1](./images/SKRPico-menuconfig.png)
+ - [BTT Mini E3 V2 and V3](https://github.com/Polar-Ted/SKR_E3_V2_on_CANbus/raw/main/images/SKRE3V2_menuconfig.jpg)
+ - More as I make the screen shots
 
 ## Pin Diagrams
 
